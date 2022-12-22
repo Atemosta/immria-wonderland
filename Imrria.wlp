@@ -144,7 +144,8 @@
                 1.0,
                 1.0,
                 1.0
-            ]
+            ],
+            "parent": "248"
         },
         "23": {
             "name": "Light.000",
@@ -171,7 +172,8 @@
                 1.0,
                 1.0,
                 1.0
-            ]
+            ],
+            "parent": "248"
         },
         "53": {
             "link": {
@@ -680,7 +682,8 @@
                         "indicatorYOffset": 0.0099999,
                         "eyeLeft": "18",
                         "eyeRight": "19"
-                    }
+                    },
+                    "active": false
                 }
             ],
             "translation": [
@@ -1570,6 +1573,12 @@
             "components": [
                 {
                     "type": "player-height"
+                },
+                {
+                    "type": "wasd-controls",
+                    "wasd-controls": {
+                        "headObject": "17"
+                    }
                 }
             ],
             "translation": [
@@ -1689,7 +1698,8 @@
                         "indicatorYOffset": 0.0099999,
                         "eyeLeft": "18",
                         "eyeRight": "19"
-                    }
+                    },
+                    "active": false
                 }
             ],
             "translation": [
@@ -1813,7 +1823,7 @@
             ]
         },
         "236": {
-            "name": "Enviorment",
+            "name": "Environment",
             "translation": [
                 20.0,
                 0.0,
@@ -2057,6 +2067,9 @@
                 10.0000801
             ],
             "parent": "236"
+        },
+        "248": {
+            "name": "Lighting"
         }
     },
     "meshes": {

@@ -17,6 +17,20 @@
                 0.9999998,
                 1.0,
                 0.9999998
+            ],
+            "components": [
+                {
+                    "type": "howler-audio-listener"
+                },
+                {
+                    "type": "howler-audio-source",
+                    "howler-audio-source": {
+                        "loop": true,
+                        "autoplay": true,
+                        "src": "human-village.mp3",
+                        "volume": 0.5
+                    }
+                }
             ]
         },
         "17": {

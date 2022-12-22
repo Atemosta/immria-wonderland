@@ -2,98 +2,21 @@
     "objects": {
         "14": {
             "name": "Player",
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                8.5186777
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 0.9999998,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.9999998,
-                0.0,
-                -2.5,
-                0.0,
-                1.1575536,
-                1.0
-            ]
-        },
-        "15": {
-            "name": "FloorPlane",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "7",
-                        "material": "20"
-                    },
-                    "active": true
-                },
-                {
-                    "type": "collision",
-                    "collision": {
-                        "collider": "aabb",
-                        "aabb": {
-                            "extents": [
-                                4.0,
-                                0.05,
-                                4.0
-                            ]
-                        },
-                        "groups": 4
-                    }
-                }
-            ],
-            "transformation": [
-                4.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.0016164,
-                -3.9999997,
-                0.0,
-                0.0,
-                3.9999997,
-                -0.0016164,
-                0.0,
-                0.0,
-                0.0,
-                1.192092895507813e-7,
-                1.0
-            ]
-        },
-        "16": {
-            "name": "Cube",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "8",
-                        "material": "22"
-                    }
-                }
-            ],
-            "transformation": [
-                0.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.5,
-                0.0,
-                2.9802322387695329e-8,
-                0.4999999,
-                5.960464477539065e-8,
-                1.0
+                0.9999998
             ]
         },
         "17": {
@@ -114,22 +37,20 @@
                     }
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0
             ]
         },
@@ -150,22 +71,20 @@
                     "type": "howler-audio-listener"
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
                 1.0
             ]
         },
@@ -183,22 +102,20 @@
                     }
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
                 1.0
             ]
         },
@@ -212,22 +129,20 @@
                     }
                 }
             ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 0.0,
                 3.0,
-                2.0,
+                2.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
                 1.0
             ]
         },
@@ -241,82 +156,20 @@
                     }
                 }
             ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 -1.0,
                 3.0,
-                -1.0,
-                1.0
-            ]
-        },
-        "24": {
-            "name": "Cone",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "10",
-                        "material": "25"
-                    }
-                }
+                -1.0
             ],
-            "transformation": [
-                1.0,
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                1.5,
-                1.0,
-                -1.4901161193847657e-8,
                 1.0
-            ]
-        },
-        "27": {
-            "name": "Sphere",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "9",
-                        "material": "26"
-                    }
-                }
             ],
-            "transformation": [
-                0.75,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.75,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.75,
-                0.0,
-                0.4999999,
-                0.75,
-                -1.25,
+            "scale": [
+                1.0,
+                1.0,
                 1.0
             ]
         },
@@ -327,23 +180,21 @@
             },
             "parent": "130",
             "name": "ControllerModelLeft",
-            "transformation": [
-                -0.9999998,
-                2.9802311729554277e-8,
-                -5.960464477539065e-8,
-                0.0,
-                -2.9802322387695329e-8,
-                0.0706573,
-                0.9975006,
-                0.0,
-                0.0,
-                0.9975004,
-                -0.0706574,
-                0.0,
-                -0.0117515,
+            "translation": [
+                -0.0117514,
                 0.0008869,
-                0.0161192,
-                1.0
+                0.0161192
+            ],
+            "rotation": [
+                -0.0,
+                0.7316615,
+                0.6816681,
+                3.196286257889369e-8
+            ],
+            "scale": [
+                0.9999998,
+                0.9999999,
+                0.9999997
             ]
         },
         "54": {
@@ -568,23 +419,21 @@
             },
             "parent": "129",
             "name": "ControllerModelRight",
-            "transformation": [
-                -0.9993979,
-                0.0,
-                8.344650268554688e-7,
-                0.0,
-                -1.4901161193847657e-8,
-                0.9990808,
-                -0.0251145,
-                0.0,
-                -8.642673492431641e-7,
-                -0.0251297,
-                -0.9996858,
-                0.0,
-                0.0097995,
+            "translation": [
+                0.0097994,
                 -0.0006203,
-                0.0177838,
-                1.0
+                0.0177838
+            ],
+            "rotation": [
+                -0.0,
+                0.999921,
+                -0.0125658,
+                -4.174509058429976e-7
+            ],
+            "scale": [
+                0.9993978,
+                0.9993963,
+                1.0000015
             ]
         },
         "96": {
@@ -834,22 +683,20 @@
                     }
                 }
             ],
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 2.384185791015625e-7,
-                1.192092895507813e-7,
-                -2.384185791015625e-7,
+                1.1920928955078125e-7,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
                 1.0
             ]
         },
@@ -864,47 +711,27 @@
                     }
                 }
             ],
-            "transformation": [
-                0.0099999,
+            "parent": null,
+            "translation": [
+                0.0,
+                0.0388117,
+                1.5585094
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
-                0.0,
-                0.0099999,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0099999,
-                0.0,
-                0.0,
-                0.0388118,
-                1.5585095,
                 1.0
             ],
-            "parent": null
+            "scale": [
+                0.0099999,
+                0.0099999,
+                0.0099999
+            ]
         },
         "129": {
             "name": "ControllerRight",
             "parent": "205",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
-                1.0
-            ],
             "components": [
                 null,
                 null,
@@ -942,6 +769,22 @@
                     "type": "vr-mode-active-switch",
                     "active": true
                 }
+            ],
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
             ]
         },
         "130": {
@@ -985,22 +828,20 @@
                     "active": true
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
                 1.0
             ]
         },
@@ -1026,22 +867,20 @@
                     "active": true
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
                 1.0
             ]
         },
@@ -1053,7 +892,10 @@
             "parent": "134",
             "components": [
                 {
-                    "active": true
+                    "active": true,
+                    "mesh": {
+                        "skin": "133"
+                    }
                 }
             ]
         },
@@ -1083,105 +925,120 @@
                 "name": "pinky-finger-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "140": {
             "link": {
                 "name": "pinky-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "141": {
             "link": {
                 "name": "pinky-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "142": {
             "link": {
                 "name": "pinky-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "143": {
             "link": {
                 "name": "pinky-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "144": {
             "link": {
                 "name": "ring-finger-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "145": {
             "link": {
                 "name": "ring-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "146": {
             "link": {
                 "name": "ring-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "147": {
             "link": {
                 "name": "ring-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "148": {
             "link": {
                 "name": "ring-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "149": {
             "link": {
                 "name": "middle-finger-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "150": {
             "link": {
                 "name": "middle-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "151": {
             "link": {
                 "name": "middle-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "152": {
             "link": {
                 "name": "middle-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "153": {
             "link": {
                 "name": "middle-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "154": {
             "link": {
@@ -1202,70 +1059,80 @@
                         "groups": 2
                     }
                 }
-            ]
+            ],
+            "skin": "133"
         },
         "155": {
             "link": {
                 "name": "index-finger-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "156": {
             "link": {
                 "name": "index-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "157": {
             "link": {
                 "name": "index-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "158": {
             "link": {
                 "name": "index-finger-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "159": {
             "link": {
                 "name": "thumb-tip<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "160": {
             "link": {
                 "name": "thumb-phalanx-distal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "161": {
             "link": {
                 "name": "thumb-phalanx-proximal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "162": {
             "link": {
                 "name": "thumb-metacarpal<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "163": {
             "link": {
                 "name": "wrist<Armature",
                 "file": "models\\hand-left.glb"
             },
-            "parent": "134"
+            "parent": "134",
+            "skin": "133"
         },
         "167": {
             "link": {
@@ -1289,22 +1156,20 @@
                     "active": true
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
                 1.0
             ]
         },
@@ -1313,70 +1178,86 @@
                 "name": "r_handMeshNode<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "components": [
+                {
+                    "mesh": {
+                        "skin": "166"
+                    }
+                }
+            ]
         },
         "169": {
             "link": {
                 "name": "wrist<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "170": {
             "link": {
                 "name": "thumb-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "171": {
             "link": {
                 "name": "thumb-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "172": {
             "link": {
                 "name": "thumb-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "173": {
             "link": {
                 "name": "thumb-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "174": {
             "link": {
                 "name": "index-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "175": {
             "link": {
                 "name": "index-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "176": {
             "link": {
                 "name": "index-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "177": {
             "link": {
                 "name": "index-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "178": {
             "link": {
@@ -1397,112 +1278,128 @@
                 {
                     "type": "finger-cursor"
                 }
-            ]
+            ],
+            "skin": "166"
         },
         "179": {
             "link": {
                 "name": "middle-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "180": {
             "link": {
                 "name": "middle-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "181": {
             "link": {
                 "name": "middle-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "182": {
             "link": {
                 "name": "middle-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "183": {
             "link": {
                 "name": "middle-finger-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "184": {
             "link": {
                 "name": "ring-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "185": {
             "link": {
                 "name": "ring-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "186": {
             "link": {
                 "name": "ring-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "187": {
             "link": {
                 "name": "ring-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "188": {
             "link": {
                 "name": "ring-finger-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "189": {
             "link": {
                 "name": "pinky-finger-metacarpal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "190": {
             "link": {
                 "name": "pinky-finger-phalanx-proximal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "191": {
             "link": {
                 "name": "pinky-finger-phalanx-intermediate<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "192": {
             "link": {
                 "name": "pinky-finger-phalanx-distal<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "193": {
             "link": {
                 "name": "pinky-finger-tip<Armature",
                 "file": "models\\hand-right.glb"
             },
-            "parent": "167"
+            "parent": "167",
+            "skin": "166"
         },
         "194": {
             "name": "Panel",
@@ -1515,24 +1412,23 @@
                     }
                 }
             ],
-            "transformation": [
-                0.25,
+            "translation": [
+                0.0,
+                1.1999995,
+                7.361124
+            ],
+            "rotation": [
+                0.5002118,
                 0.0,
                 0.0,
-                0.0,
-                0.0,
-                0.062447,
-                0.1082836,
-                0.0,
-                0.0,
-                -0.2165673,
-                0.1248941,
-                0.0,
-                -2.5,
-                1.2,
-                0.0,
-                1.0
-            ]
+                0.865903
+            ],
+            "scale": [
+                0.2525,
+                0.1262498,
+                0.2524998
+            ],
+            "parent": "243"
         },
         "196": {
             "link": {
@@ -1548,46 +1444,26 @@
                 }
             ],
             "name": "ButtonMesh",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.999999,
-                0.0000012,
-                0.0,
-                0.0,
-                -0.0000019,
-                0.999999,
-                0.0,
-                -0.0000095,
+            "translation": [
+                -0.0000094,
                 0.3244419,
-                -0.0000677,
+                -0.0000676
+            ],
+            "rotation": [
+                6.000006465001206e-7,
+                0.0,
+                0.0,
                 1.0
+            ],
+            "scale": [
+                1.0,
+                0.9999989,
+                0.9999989
             ]
         },
         "197": {
             "name": "Button",
             "parent": "194",
-            "transformation": [
-                0.4,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.4999999,
-                -0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.3,
-                0.0,
-                0.0,
-                0.057682,
-                0.1754341,
-                1.0
-            ],
             "components": [
                 {
                     "type": "collision",
@@ -1613,6 +1489,22 @@
                         "hoverMaterial": "203"
                     }
                 }
+            ],
+            "translation": [
+                0.0,
+                0.057682,
+                0.175434
+            ],
+            "rotation": [
+                -0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                0.4,
+                0.4999999,
+                0.3
             ]
         },
         "198": {
@@ -1626,23 +1518,21 @@
                     }
                 }
             ],
-            "transformation": [
+            "translation": [
+                -0.0001563,
+                0.1084579,
+                0.0000046
+            ],
+            "rotation": [
+                -0.7068095,
+                0.0,
+                0.0,
+                0.7074038
+            ],
+            "scale": [
                 2.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0031942,
-                -3.7999985,
-                0.0,
-                0.0,
-                4.8000044,
-                0.0040349,
-                0.0,
-                -0.0001564,
-                0.108458,
-                0.0000047,
-                1.0
+                3.7999999,
+                4.8000063
             ]
         },
         "200": {
@@ -1657,81 +1547,46 @@
                     }
                 }
             ],
-            "transformation": [
-                1.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0021012,
-                -2.9999995,
-                0.0,
-                0.0,
-                1.4999996,
-                0.0010506,
-                0.0,
+            "translation": [
                 -0.0000023,
-                0.1554994,
-                -0.3034151,
-                1.0
+                0.1554993,
+                -0.303415
+            ],
+            "rotation": [
+                -0.7068591,
+                0.0,
+                0.0,
+                0.7073543
+            ],
+            "scale": [
+                1.5,
+                3.0000002,
+                1.5000001
             ]
-        },
-        "204": {
-            "name": "TeleportTarget",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "11",
-                        "material": "128"
-                    }
-                }
-            ],
-            "transformation": [
-                0.5,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0099999,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.5,
-                0.0,
-                0.0311205,
-                0.0,
-                1.2337659,
-                1.0
-            ],
-            "deleted": true
         },
         "205": {
             "name": "TrackedSpace",
             "parent": "14",
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                1.75,
-                0.0,
-                1.0
-            ],
             "components": [
                 {
                     "type": "player-height"
                 }
+            ],
+            "translation": [
+                0.0,
+                1.75,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
             ]
         },
         "208": {
@@ -1739,44 +1594,40 @@
                 "name": "TeleportIndicator",
                 "file": "models\\teleport-indicator.glb"
             },
-            "transformation": [
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
+            "translation": [
                 0.0,
                 0.0099999,
-                1.3311299,
+                1.3311299
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
                 1.0
             ]
         },
         "209": {
             "name": "CursorRayLeft",
             "parent": "126",
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                2.384185791015625e-7,
                 1.0
             ]
         },
@@ -1792,34 +1643,22 @@
                     }
                 }
             ],
-            "transformation": [
-                0.0049999,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0001057,
-                0.3500003,
-                0.0,
-                0.0,
-                -0.005,
-                0.0000015,
-                0.0,
-                2.384192896442983e-7,
+            "translation": [
+                2.3841928964429826e-7,
                 0.0002447,
-                0.0,
-                1.0
-            ]
-        },
-        "211": {
-            "name": "CursorRight",
-            "parent": "205",
-            "components": [
-                {
-                    "type": "cursor"
-                }
+                0.0
             ],
-            "deleted": true
+            "rotation": [
+                0.707,
+                0.0,
+                0.0,
+                0.7072135
+            ],
+            "scale": [
+                0.0049998,
+                0.3500002,
+                0.0049999
+            ]
         },
         "212": {
             "name": "CursorRight",
@@ -1853,44 +1692,40 @@
                     }
                 }
             ],
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                -2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                -2.384185791015625e-7,
                 1.0
             ]
         },
         "213": {
             "name": "CursorRayRight",
             "parent": "212",
-            "transformation": [
+            "translation": [
+                0.0,
+                0.0,
+                2.384185791015625e-7
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
                 1.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                1.0,
-                0.0,
-                0.0,
-                0.0,
-                2.384185791015625e-7,
                 1.0
             ]
         },
@@ -1906,23 +1741,21 @@
                     }
                 }
             ],
-            "transformation": [
-                0.0049999,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.0001711,
-                0.3499999,
-                0.0,
-                0.0,
-                -0.0049999,
-                -0.0000024,
-                0.0,
+            "translation": [
                 2.384185791015625e-7,
                 0.0002447,
+                0.0
+            ],
+            "rotation": [
+                0.7072796,
                 0.0,
-                1.0
+                0.0,
+                0.7069339
+            ],
+            "scale": [
+                0.0049998,
+                0.3499999,
+                0.0049999
             ]
         },
         "215": {
@@ -1936,34 +1769,76 @@
                     }
                 }
             ],
-            "transformation": [
-                0.0099999,
+            "parent": null,
+            "translation": [
                 0.0,
                 0.0,
-                0.0,
-                0.0,
-                0.0099999,
-                0.0,
-                0.0,
-                0.0,
-                0.0,
-                0.0099999,
-                0.0,
+                0.0
+            ],
+            "rotation": [
                 0.0,
                 0.0,
                 0.0,
                 1.0
             ],
-            "parent": null
+            "scale": [
+                0.0099999,
+                0.0099999,
+                0.0099999
+            ]
         },
-        "216": {
+        "219": {
+            "name": "PhysicsBody",
+            "components": [
+                {
+                    "type": "physx"
+                }
+            ],
+            "parent": "14",
+            "translation": [
+                0.0,
+                0.0,
+                -8.5186786
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0000002,
+                1.0,
+                1.0000002
+            ]
+        },
+        "236": {
+            "name": "Enviorment",
+            "translation": [
+                20.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "240": {
             "name": "FloorPlane",
             "components": [
                 {
                     "type": "mesh",
                     "mesh": {
                         "mesh": "7",
-                        "material": "20"
+                        "material": "234"
                     },
                     "active": true
                 },
@@ -1973,43 +1848,215 @@
                         "collider": "aabb",
                         "aabb": {
                             "extents": [
-                                1.0,
+                                10.0,
                                 0.05,
-                                1.0
+                                10.0
                             ]
                         },
                         "groups": 4
                     }
                 }
             ],
-            "transformation": [
-                1.0,
+            "translation": [
+                -20.5,
                 0.0,
-                0.0,
-                0.0,
-                0.0,
-                -0.0004041,
-                -0.9999999,
-                0.0,
-                0.0,
-                0.9999999,
-                -0.0004041,
-                0.0,
-                0.0,
-                -4.76837158203125e-7,
-                -6.5,
-                1.0
+                1.1920928955078125e-7
             ],
-            "parent": null,
-            "deleted": true
+            "rotation": [
+                -0.7072497,
+                0.0,
+                0.0,
+                0.7069638
+            ],
+            "scale": [
+                10.0,
+                9.999999,
+                9.999999
+            ],
+            "parent": "236"
         },
-        "219": {
-            "name": "PhysicsBody",
+        "242": {
+            "name": "RightWall",
             "components": [
                 {
-                    "type": "physx"
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "7",
+                        "material": "247"
+                    },
+                    "active": true
+                },
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "aabb",
+                        "aabb": {
+                            "extents": [
+                                0.05,
+                                5.0,
+                                10.0
+                            ]
+                        },
+                        "groups": 4
+                    },
+                    "active": true
                 }
-            ]
+            ],
+            "translation": [
+                -10.5109624,
+                4.8864111,
+                -0.0061988
+            ],
+            "rotation": [
+                0.500101,
+                0.500101,
+                -0.4998989,
+                -0.4998989
+            ],
+            "scale": [
+                5.0,
+                10.0000009,
+                10.0000009
+            ],
+            "parent": "236"
+        },
+        "243": {
+            "name": "Interactables"
+        },
+        "244": {
+            "name": "LeftWall",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "7",
+                        "material": "247"
+                    },
+                    "active": true
+                },
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "aabb",
+                        "aabb": {
+                            "extents": [
+                                0.05,
+                                5.0,
+                                10.0
+                            ]
+                        },
+                        "groups": 4
+                    },
+                    "active": true
+                }
+            ],
+            "translation": [
+                -30.5109996,
+                4.8864116,
+                -0.0061988
+            ],
+            "rotation": [
+                -0.500101,
+                0.500101,
+                -0.4998989,
+                0.4998989
+            ],
+            "scale": [
+                5.0,
+                10.0000009,
+                10.0000009
+            ],
+            "parent": "236"
+        },
+        "245": {
+            "name": "BackWall",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "7",
+                        "material": "247"
+                    },
+                    "active": true
+                },
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "aabb",
+                        "aabb": {
+                            "extents": [
+                                10.0,
+                                5.0,
+                                0.05
+                            ]
+                        },
+                        "groups": 4
+                    },
+                    "active": true
+                }
+            ],
+            "translation": [
+                -20.5,
+                4.8863983,
+                -10.0496501
+            ],
+            "rotation": [
+                -3.1611161688260836e-8,
+                -3.1611925521701785e-8,
+                -0.7071068,
+                0.7071067
+            ],
+            "scale": [
+                4.9995718,
+                9.9991445,
+                10.0000009
+            ],
+            "parent": "236"
+        },
+        "246": {
+            "name": "EntranceWall",
+            "components": [
+                {
+                    "type": "mesh",
+                    "mesh": {
+                        "mesh": "7",
+                        "material": "247"
+                    },
+                    "active": true
+                },
+                {
+                    "type": "collision",
+                    "collision": {
+                        "collider": "aabb",
+                        "aabb": {
+                            "extents": [
+                                10.0,
+                                5.0,
+                                0.05
+                            ]
+                        },
+                        "groups": 4
+                    },
+                    "active": true
+                }
+            ],
+            "translation": [
+                -20.5,
+                4.8864612,
+                10.0181283
+            ],
+            "rotation": [
+                0.7070998,
+                0.7071136,
+                0.0000054,
+                0.0000054
+            ],
+            "scale": [
+                4.9994874,
+                9.9988689,
+                10.0000801
+            ],
+            "parent": "236"
         }
     },
     "meshes": {
@@ -2152,7 +2199,7 @@
     "textures": {
         "t0": {
             "link": {
-                "name": "DefaultFont",
+                "name": "DefaultTexture",
                 "file": "default"
             },
             "name": "DefaultFont"
@@ -2185,7 +2232,7 @@
     "images": {
         "f0": {
             "link": {
-                "name": "DefaultFontImage",
+                "name": "DefaultImage",
                 "file": "default"
             }
         },
@@ -2236,18 +2283,14 @@
                 "name": "DefaultFontMaterial",
                 "file": "default"
             },
-            "DistanceFieldVector": {
-                "outlineRange": [
-                    0.4499999,
-                    0.4499999
-                ],
-                "smoothness": 0.0299999,
-                "outlineColor": [
+            "Text": {
+                "effectColor": [
                     1.0,
                     1.0,
                     1.0,
                     1.0
-                ]
+                ],
+                "font": "233"
             }
         },
         "20": {
@@ -2255,9 +2298,9 @@
             "shader": "Phong",
             "Phong": {
                 "specularColor": [
-                    9.999899930335233e-7,
+                    9.999899930335232e-7,
                     9.99993744699168e-7,
-                    9.999999974752428e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 1
@@ -2273,9 +2316,9 @@
                     1.0
                 ],
                 "specularColor": [
-                    9.999899930335233e-7,
-                    9.999911299019005e-7,
-                    9.999999974752428e-7,
+                    9.999899930335232e-7,
+                    9.999911299019004e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 10,
@@ -2297,9 +2340,9 @@
                     1.0
                 ],
                 "specularColor": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ],
                 "ambientColor": [
@@ -2320,9 +2363,9 @@
                     1.0
                 ],
                 "specularColor": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ],
                 "ambientColor": [
@@ -2352,9 +2395,9 @@
             "shader": "Phong",
             "Phong": {
                 "specularColor": [
-                    9.999899930335233e-7,
+                    9.999899930335232e-7,
                     9.99993744699168e-7,
-                    9.999999974752428e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 1
@@ -2381,17 +2424,14 @@
                 "file": "default"
             },
             "name": "TextAccent",
-            "DistanceFieldVector": {
+            "Text": {
                 "color": [
                     0.9098039,
                     0.0,
                     0.5411764,
                     1.0
                 ],
-                "outlineRange": [
-                    0.4,
-                    0.4
-                ]
+                "font": "233"
             }
         },
         "202": {
@@ -2399,9 +2439,9 @@
             "shader": "Phong",
             "Phong": {
                 "specularColor": [
-                    9.999899930335233e-7,
+                    9.999899930335232e-7,
                     9.99993744699168e-7,
-                    9.999999974752428e-7,
+                    9.999999974752427e-7,
                     1.0
                 ],
                 "shininess": 1,
@@ -2429,9 +2469,9 @@
                     1.0
                 ],
                 "specularColor": [
-                    9.999999974752428e-7,
-                    9.999899930335233e-7,
-                    9.999899930335233e-7,
+                    9.999999974752427e-7,
+                    9.999899930335232e-7,
+                    9.999899930335232e-7,
                     1.0
                 ],
                 "ambientColor": [
@@ -2464,84 +2504,166 @@
                     1.0
                 ]
             }
+        },
+        "234": {
+            "name": "ImmriaFloor",
+            "Phong": {
+                "ambientColor": [
+                    0.0,
+                    0.3686274,
+                    0.3035754,
+                    1.0
+                ],
+                "diffuseColor": [
+                    0.0039215,
+                    1.0,
+                    0.6835984,
+                    1.0
+                ],
+                "specularColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.0
+                ],
+                "fogColor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.0
+                ]
+            }
+        },
+        "247": {
+            "name": "ImmriaWall",
+            "Phong": {
+                "ambientColor": [
+                    0.0,
+                    0.1914647,
+                    0.3254901,
+                    1.0
+                ]
+            }
         }
     },
     "shaders": {
         "1": {
             "link": {
-                "name": "DistanceFieldVector Textured",
+                "name": "DistanceFieldVector Textured.frag",
                 "file": "default"
             }
         },
         "2": {
             "link": {
-                "name": "Flat",
+                "name": "Flat.frag",
                 "file": "default"
             }
         },
         "3": {
             "link": {
-                "name": "Flat Textured",
+                "name": "Flat Textured.frag",
                 "file": "default"
             }
         },
         "4": {
             "link": {
-                "name": "MeshVisualizer",
+                "name": "MeshVisualizer.frag",
                 "file": "default"
             }
         },
         "5": {
             "link": {
-                "name": "Phong",
+                "name": "Phong.frag",
                 "file": "default"
             }
         },
         "6": {
             "link": {
-                "name": "Phong Textured",
+                "name": "Phong Textured.frag",
                 "file": "default"
             }
         },
         "28": {
             "link": {
-                "name": "Dynamic",
+                "name": "Dynamic.vert",
                 "file": "default"
             }
         },
         "29": {
             "link": {
-                "name": "Particle Textured",
+                "name": "Particle Textured.frag",
                 "file": "default"
             }
         },
         "30": {
             "link": {
-                "name": "Skinning",
+                "name": "Skinning.vert",
                 "file": "default"
             }
         },
         "31": {
             "link": {
-                "name": "Static",
+                "name": "Static.frag",
                 "file": "default"
             }
         },
         "32": {
             "link": {
-                "name": "DistanceFieldVector",
+                "name": "DistanceFieldVector.frag",
                 "file": "default"
             }
         },
         "37": {
             "link": {
-                "name": "Particle",
+                "name": "Particle.frag",
                 "file": "default"
             }
         },
         "217": {
             "link": {
-                "name": "Depth",
+                "name": "Depth.frag",
+                "file": "default"
+            }
+        },
+        "220": {
+            "link": {
+                "name": "Background.frag",
+                "file": "default"
+            }
+        },
+        "221": {
+            "link": {
+                "name": "FullScreenTriangle.vert",
+                "file": "default"
+            }
+        },
+        "222": {
+            "link": {
+                "name": "Physical.frag",
+                "file": "default"
+            }
+        },
+        "225": {
+            "link": {
+                "name": "Sky.frag",
+                "file": "default"
+            }
+        },
+        "226": {
+            "link": {
+                "name": "Text.frag",
+                "file": "default"
+            }
+        },
+        "228": {
+            "link": {
+                "name": "Text.vert",
+                "file": "default"
+            }
+        },
+        "229": {
+            "link": {
+                "name": "TileFeedback.frag",
                 "file": "default"
             }
         }
@@ -2551,8 +2673,8 @@
             "name": "MyWonderland",
             "version": [
                 0,
-                8,
-                10
+                9,
+                5
             ]
         },
         "vr": {
@@ -2581,14 +2703,68 @@
                 "name": "Armature",
                 "file": "models\\hand-left.glb"
             },
-            "name": "HandLeftSkin"
+            "name": "HandLeftSkin",
+            "joints": [
+                "139",
+                "140",
+                "141",
+                "142",
+                "143",
+                "144",
+                "145",
+                "146",
+                "147",
+                "148",
+                "149",
+                "150",
+                "151",
+                "152",
+                "153",
+                "154",
+                "155",
+                "156",
+                "157",
+                "158",
+                "159",
+                "160",
+                "161",
+                "162",
+                "163"
+            ]
         },
         "166": {
             "link": {
                 "name": "Armature",
                 "file": "models\\hand-right.glb"
             },
-            "name": "HandRightSkin"
+            "name": "HandRightSkin",
+            "joints": [
+                "169",
+                "170",
+                "171",
+                "172",
+                "173",
+                "174",
+                "175",
+                "176",
+                "177",
+                "178",
+                "179",
+                "180",
+                "181",
+                "182",
+                "183",
+                "184",
+                "185",
+                "186",
+                "187",
+                "188",
+                "189",
+                "190",
+                "191",
+                "192",
+                "193"
+            ]
         }
     },
     "pipelines": {
@@ -2608,6 +2784,9 @@
             "link": {
                 "name": "Flat Opaque Textured",
                 "file": "default"
+            },
+            "features": {
+                "ALPHA_MASKED": true
             }
         },
         "36": {
@@ -2626,6 +2805,9 @@
             "link": {
                 "name": "Phong Opaque Textured",
                 "file": "default"
+            },
+            "features": {
+                "ALPHA_MASKED": true
             }
         },
         "39": {
@@ -2645,6 +2827,45 @@
                 "name": "Depth",
                 "file": "default"
             }
+        },
+        "223": {
+            "link": {
+                "name": "Physical Opaque",
+                "file": "default"
+            }
+        },
+        "224": {
+            "link": {
+                "name": "Physical Opaque Textured",
+                "file": "default"
+            },
+            "features": {
+                "ALPHA_MASKED": true
+            }
+        },
+        "227": {
+            "link": {
+                "name": "Text",
+                "file": "default"
+            }
+        },
+        "230": {
+            "link": {
+                "name": "Phong Normalmapped",
+                "file": "default"
+            }
+        },
+        "231": {
+            "link": {
+                "name": "Phong Lightmapped",
+                "file": "default"
+            }
+        },
+        "232": {
+            "link": {
+                "name": "Sky",
+                "file": "default"
+            }
         }
     },
     "files": [
@@ -2654,5 +2875,13 @@
         "models/hand-right.glb",
         "models/button.glb",
         "models/teleport-indicator.glb"
-    ]
+    ],
+    "fonts": {
+        "233": {
+            "link": {
+                "name": "DejaVuSans.ttf",
+                "file": "default"
+            }
+        }
+    }
 }
